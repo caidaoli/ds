@@ -14,6 +14,7 @@ ADD mysql-connector-odbc-5.3.6-linux-ubuntu15.10-x86-64bit.tar.gz /
 # RUN tar xvzf mysql-connector-odbc-5.3.6-linux-ubuntu15.10-x86-64bit.tar.gz -C /
 RUN cp /mysql-connector-odbc-5.3.6-linux-ubuntu15.10-x86-64bit/lib/* /usr/lib/odbc
  #RUN /mysql-connector-odbc-5.3.6-linux-ubuntu15.10-x86-64bit/bin/myodbc-installer
+
 EXPOSE 5555:5555
 
 VOLUME ["/app"]
