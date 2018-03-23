@@ -1,4 +1,4 @@
-from ubuntu:17.04
+from ubuntu:17.10
 MAINTAINER Li YaLei <caidaoli@gmail.com>
 # 替换阿里云源
 #ADD ./sources.list /etc/apt/sources.list
